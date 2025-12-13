@@ -1,0 +1,71 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "paths": {
+      "ral-app": [
+        "./dist/ral-app"
+      ],
+      "ral-domain": [
+        "./dist/ral-domain"
+      ],
+      "ral-infra": [
+        "./dist/ral-infra"
+      ],
+      "ral-ui": [
+        "./dist/ral-ui"
+      ]
+    },
+    "target": "es2022",
+    "module": "es2020",
+    "lib": ["es2018", "dom"],
+    "skipLibCheck": true,
+    "useDefineForClassFields": false
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  },
+  "references": [
+    {
+      "path": "./projects/ral-domain/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/ral-domain/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/ral-app/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/ral-app/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/ral-infra/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/ral-infra/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/ral-ui/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/ral-ui/tsconfig.spec.json"
+    }
+  ]
+}
