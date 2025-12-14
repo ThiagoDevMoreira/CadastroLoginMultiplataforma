@@ -18,16 +18,16 @@
     "importHelpers": true,
     "paths": {
       "ral-app": [
-        "./dist/ral-app"
+        "projects/ral-app/src/public-api.ts"
       ],
       "ral-domain": [
-        "./dist/ral-domain"
+        "projects/ral-domain/src/public-api.ts"
       ],
       "ral-infra": [
-        "./dist/ral-infra"
+        "projects/ral-infra/src/public-api.ts"
       ],
       "ral-ui": [
-        "./dist/ral-ui"
+        "projects/ral-ui/src/public-api.ts"
       ]
     },
     "target": "es2022",

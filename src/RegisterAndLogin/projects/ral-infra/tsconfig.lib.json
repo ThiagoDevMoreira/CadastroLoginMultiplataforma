@@ -7,12 +7,14 @@
     "declaration": true,
     "declarationMap": true,
     "inlineSources": true,
+    "composite": true,
     "types": []
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "src/**/**/*.ts"
   ],
   "exclude": [
     "**/*.spec.ts"
-  ]
+  ],
 }
