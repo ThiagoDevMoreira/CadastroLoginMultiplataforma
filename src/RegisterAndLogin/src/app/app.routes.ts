@@ -4,7 +4,7 @@ import { RegisterPageComponent } from 'projects/ral-ui/src/lib/auth/register-pag
 import { StartRalPageComponent } from 'projects/ral-ui/src/lib/auth/start-ral-page/start-ral-page.component';
 
 export const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'start' },
+  { path: '', pathMatch: 'full', redirectTo: 'login' },
   { path: 'login', component: LoginPageComponent },
   { path: 'register', component: RegisterPageComponent },
   { path: 'start', component: StartRalPageComponent },
